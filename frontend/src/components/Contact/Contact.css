@@ -102,3 +102,33 @@ textarea {
 .contact-form button:hover {
     background-color: #007bff;
 }
+
+@media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column; /* Stack elements vertically on smaller screens */
+      height: auto; /* Auto height */
+      padding: 20px; /* Add padding for better spacing */
+      width: 90%; /* Adjust width for smaller screens */
+      margin: 30px auto; /* Center align container */
+    }
+  
+    .contact-form {
+      width: 80%; /* Make form full width */
+    }
+  
+    .contact-form-heading {
+      font-size: 24px; /* Decrease font size for smaller screens */
+      margin-bottom: 20px; /* Adjust margin */
+    }
+  
+    .contact-form input,
+    .contact-form textarea {
+      font-size: 16px; /* Decrease font size for smaller screens */
+      padding: 12px 16px; /* Adjust padding */
+    }
+  
+    .contact-form button {
+      width: 100%; /* Make button full width */
+    }
+  }
+  

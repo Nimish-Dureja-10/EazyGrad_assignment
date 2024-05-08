@@ -103,3 +103,33 @@
     text-align: center;
     font-size: 12px;
 }
+
+@media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column; /* Stack elements vertically on smaller screens */
+      height: auto; /* Auto height */
+      overflow: hidden;
+    }
+  
+    .footer-left-section,
+    .footer-right-section {
+      width: 90%; /* Make both sections full width on smaller screens */
+      border: none; /* Remove border between sections */
+      padding: 20px; /*Adjust padding */
+      text-align: center; /* Center align text */
+    }
+  
+    .footer-right-links {
+      width: calc(50% - 20px); /* Make each column 50% width with some spacing between */
+      margin: 0 auto; /* Center align footer links */
+    }
+  
+    .subscribe-button {
+      margin: 10px auto; /* Center align subscribe button */
+    }
+  
+    .footer-form-inputs {
+      width: 100%; /* Make form inputs full width on smaller screens */
+    }
+  }
+  

@@ -38,3 +38,37 @@
     font-size: 16px;
     color: grey;
 }
+
+/* Numbers.css */
+
+/* Keep existing styles for larger screens */
+
+@media (max-width: 768px) {
+    .number-container {
+      height: auto; /* Auto height */
+      padding: 20px; /* Add padding for better spacing */
+      gap: 20px; /* Increase gap between elements */
+    }
+  
+    .number-details {
+      flex-wrap: wrap; /* Allow numbers to wrap to the next line */
+      justify-content: center; /* Center align numbers */
+    }
+  
+    .number-heading {
+      font-size: 24px; /* Decrease font size for smaller screens */
+    }
+  
+    .number-details-inner {
+      width: 150px; /* Set a fixed width for each number box */
+    }
+  
+    .number-details-heading {
+      font-size: 20px; /* Decrease font size for smaller screens */
+    }
+  
+    .number-details-p {
+      font-size: 14px; /* Decrease font size for smaller screens */
+    }
+  }
+  

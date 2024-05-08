@@ -82,3 +82,35 @@
 .images-section2 img {
     max-height: 265px; /* Adjust size as desired */
 }
+
+
+@media (max-width: 768px) {
+    .hero-section {
+      flex-direction: column;
+      height: auto;
+      padding: 20px; /* Add some padding for better spacing on smaller screens */
+    }
+  
+    .hero-title,
+    .hero-images {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 30px; /* Add margin between title and images on smaller screens */
+    }
+  
+    .images-section1,
+    .images-section2 {
+      margin: 0; /* Remove left and right margins on smaller screens */
+    }
+  
+    .images-section1 img,
+    .images-section2 img {
+      width: 100%; /* Make images full width on smaller screens */
+      max-width: 300px; /* Set maximum width for images */
+      height: auto; /* Maintain aspect ratio */
+      margin-bottom: 15px; /* Add some spacing between images */
+    }
+  }
+
+
+  

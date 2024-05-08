@@ -87,48 +87,68 @@
 }
 
 @media screen and (max-width: 768px) {
-    .container {
-      flex-direction: column;
-      padding: 20px;
-      text-align: center;
-    }
-  
-    .container-links {
-      margin-right: 0;
-      margin-top: 20px;
-    }
-  
-    .container-buttons {
-      margin-right: 0;
-    }
-  
-    .container-buttons .container-line {
-      display: none;
-    }
+  .container {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
   }
-  
-  @media screen and (max-width: 576px) {
-    .container-logo {
-      flex-direction: column;
-      gap: 10px;
-    }
-  
-    .container-logo input {
-      width: 100%;
-    }
-  
-    .container-links ul {
-      flex-direction: column;
-      gap: 10px;
-    }
-  
-    .container-buttons {
-      flex-direction: column;
-      gap: 10px;
-    }
-  
-    .container-buttons button {
-      width: 100%;
-    }
+
+  .container-links {
+    margin-right: 0;
+    margin-top: 20px;
   }
-  
+
+  .container-buttons {
+    margin-right: 0;
+  }
+
+  .container-buttons .container-line {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .container-links {
+    margin-right: 0;
+    margin-top: 20px;
+  }
+
+  .container-buttons {
+    margin-right: 0;
+  }
+
+  .container-buttons .container-line {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container-logo {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container-logo input {
+    width: 100%;
+  }
+
+  .container-links ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container-buttons button {
+    width: 100%;
+  }
+}

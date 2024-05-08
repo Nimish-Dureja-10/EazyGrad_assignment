@@ -15,9 +15,9 @@ function App() {
       <LevelUp />
       <About />
       <Contact />
-      {/* <IndustryPartner /> */}
       <Numbers />
       <Footer/>
+      {/* <IndustryPartner /> */}
     </div>
   );
 }
