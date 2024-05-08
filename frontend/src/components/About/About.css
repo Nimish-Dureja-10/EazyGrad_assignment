@@ -131,3 +131,51 @@
       margin: 0 auto; /* Center align buttons */
     }
   }
+
+  @media (max-width: 864px) {
+    .about-container {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+        height: auto; /* Auto height */
+        padding: 20px; /* Add padding for better spacing */
+        margin-top: 30px;
+    }
+
+    .about-left,
+    .about-right {
+        width: 100%; /* Make both sections full width on smaller screens */
+        text-align: center; /* Center align text */
+    }
+
+    .about-right {
+        height: auto; /* Auto height */
+        margin-top: 20px; /* Add some spacing between left and right sections */
+        border-radius: 0; /* Remove border radius */
+    }
+
+    .about-right img {
+        max-width: 80%; /* Adjust image width */
+        max-height: 300px; /* Set maximum image height */
+        margin: 10px auto; /* Center align image */
+    }
+
+    .about-left h2 {
+        font-size: 30px; /* Decrease font size for smaller screens */
+        margin-bottom: 15px; /* Adjust margin */
+    }
+
+    .about-left p {
+        padding: 0 10px; /* Add padding for better spacing */
+        margin-bottom: 15px;
+    }
+
+    .about-left-button {
+        flex-direction: column; /* Stack buttons vertically */
+        gap: 15px; /* Add some spacing between buttons */
+    }
+
+    .about-left button {
+        width: 100%; /* Make buttons full width */
+        max-width: 200px; /* Set maximum width for buttons */
+        margin: 0 auto; /* Center align buttons */
+    }
+}

@@ -112,5 +112,19 @@
     }
   }
 
+  @media (max-width: 864px) {
+    .images-section1,
+    .images-section2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
 
-  
+    .images-section1,
+    .images-section2 img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin-bottom: 15px;
+    }
+}
