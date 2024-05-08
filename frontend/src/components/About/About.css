@@ -1,0 +1,72 @@
+.about-container {
+    /* background-color: rgb(237, 247, 248); */
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(237, 247, 248);
+}
+
+.about-left {
+
+}
+
+.about-left h2 {
+    font-size: 42px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 25px;
+}
+
+.about-left span {
+    color: #0077ff;
+    font-family: cursive;
+}
+
+.about-right {
+    height: 75%;
+    width: 33%;
+    background:linear-gradient(86deg,#E7F3FF 1.71%,#FFF8DF 99.56%);
+    border-radius: 25px;
+}
+
+.about-right img {
+    margin: 45px auto 0;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.about-left-button {
+    display: flex;
+    gap: 10px;
+}
+
+.about-left button {
+    all:unset;
+    padding: 16px 20px;
+    width: 92px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #0077ff;
+    color:white;
+    border: #3f93f3;
+    margin-top: 32px;
+}
+
+.about-left .know-button {
+    background-color: inherit;
+    color: #84baf0;
+}
+
+.about-left .know-button:hover {
+    background-color: #ADD8E6;
+    color: white;
+}
+
+.about-left .host-button:hover {
+    background-color: #3f93f3;
+}
+
+.host-button{
+    text-align: center;
+}

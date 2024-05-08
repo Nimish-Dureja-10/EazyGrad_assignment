@@ -1,0 +1,107 @@
+/* .hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: yellow;
+}
+
+.hero-title {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+.hero-title h1 {
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size:40px;
+}
+
+.hero-span {
+    color: #0077ff;
+}
+
+.hero-images {
+    width: 50%;
+    height: 100%;
+    background-color: purple;
+} */
+
+
+/* Hero.css */
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    background-color: rgb(237, 247, 248);
+  }
+  
+.hero-title {
+    width: 50%; 
+    padding: 0 20px;
+    text-align: center;
+}
+
+.hero-title span {
+    color:#0077ff;
+}
+
+/* .hero-images {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+
+.images-section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+.hero-images img {
+    gap: 10px;
+    height: 250px;
+    width: 200px;
+    object-fit:scale-down;
+} */
+
+.hero-images {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Ensures images don't overflow container */
+  }
+  
+  .images-section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-images img {
+    height: 200px; /* Adjusted image height */
+    width: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Ensures images cover the entire space */
+    border-radius: 10px; /* Rounded corners for images */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    margin: 10px; /* Spacing between images */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .hero-images img:hover {
+    transform: scale(1.1); /* Enlarge image on hover */
+  }
+  

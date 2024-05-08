@@ -1,0 +1,40 @@
+.number-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(237, 247, 248);
+    height: 40vh;
+    justify-content: center;
+    gap: 15px;
+}
+
+.number-details {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.number-heading {
+    text-align: center;
+    font-size: 32px;
+}
+
+.number-details-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-details-heading {
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.number-details-span {
+    color: #0077ff;
+    font-family: cursive;
+}
+
+.number-details-p {
+    font-size: 16px;
+    color: grey;
+}

@@ -1,0 +1,84 @@
+/* Hero.css */
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background-color: rgb(237, 247, 248);
+}
+
+.hero-title {
+    width: 50%;
+    text-align: center;
+}
+
+.hero-title .title {
+    font-size: 48px;
+}
+
+.hero-title h1 {
+    font-size: 48px;
+    margin: 0 0 20px 0;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hero-span {
+    color: #0077ff;
+    font-family: cursive;
+}
+
+.hero-button {
+    all:unset;
+    padding: 8px 12px;
+    width: 120px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #0077ff;
+    color:white;
+    border: #3f93f3;
+    margin-top: 32px;
+}
+
+.hero-images {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Ensures images don't overflow container */
+}
+
+.images-section1, .images-section2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px; /* Reduce gap between images-section1 and images-section2 */
+}
+
+.images-section1 {
+    margin-left: 80px;
+}
+
+.images-section2 {
+    margin-right: 90px;
+}
+
+.hero-images img {
+    max-height: 150px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.hero-images img:hover {
+    transform: translate(0,-12px);
+}
+
+/* Increase size of images in images-section2 */
+.images-section2 img {
+    max-height: 265px; /* Adjust size as desired */
+}
