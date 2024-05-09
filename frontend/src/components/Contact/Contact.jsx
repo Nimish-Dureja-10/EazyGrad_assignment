@@ -11,7 +11,7 @@ const Contact = () => {
     const handleClick = async (e) => {
         e.preventDefault();
         try {
-            const res = await axios.post(`http://localhost:5000/api/v1/contact`,{
+            const res = await axios.post(`https://eazy-grad-assignment-9gky-nimishdureja10s-projects.vercel.app/api/v1/contact`,{
                 name,email,mes
             });
             if(res) {
