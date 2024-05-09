@@ -16,6 +16,10 @@ async function main() {
   console.log(`MongoDB connection successfull`)
 }
 
+app.get("/",(req,res)=>{
+  res.status(200).json(`Backend successfully running`);
+});
+
 app.use("/api/v1",contactRoutes);
 
 
