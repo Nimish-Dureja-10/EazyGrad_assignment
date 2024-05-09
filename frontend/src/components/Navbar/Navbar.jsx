@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -31,7 +31,24 @@ const Navbar = () => {
 };
 
 const MobileNavbar = () => {
-  const [showNavbar, setShowNavbar] = useState(true);
+  const [showNavbar, setShowNavbar] = useState(false); // Initially set to false for mobile screens
+
+  useEffect(() => {
+    // Function to handle screen resize
+    const handleResize = () => {
+      // Set showNavbar based on screen width
+      setShowNavbar(window.innerWidth > 864); // Adjust the width as per your tablet breakpoint
+    };
+
+    // Add event listener for window resize
+    window.addEventListener('resize', handleResize);
+
+    // Call handleResize initially to set the correct initial state
+    handleResize();
+
+    // Cleanup function to remove event listener
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   const toggleNavbar = () => {
     setShowNavbar(!showNavbar);
