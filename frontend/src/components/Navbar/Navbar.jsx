@@ -21,7 +21,6 @@ const Navbar = () => {
           <div className='container-buttons'>
             <div className='container-line'></div>
             <button className='login-button'>Login</button>
-            {/* <span>|</span> */}
             <div className='container-line'></div>
             <button className='host-button'>Host</button>
             <button className='business-button'>Business</button>

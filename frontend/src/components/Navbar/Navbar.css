@@ -89,7 +89,7 @@
   .container-links {
       margin-right: 0;
       margin-top: 20px;
-      overflow: auto; /* Add overflow property for scrolling */
+      overflow: auto;
   }
 
   .container-buttons {
